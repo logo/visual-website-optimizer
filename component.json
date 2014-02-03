@@ -1,0 +1,19 @@
+{
+  "name": "visual-website-optimizer",
+  "version": "0.0.1",
+  "repo": "logo/visual-website-optimizer",
+  "images": [
+    "images/logo-black.svg",
+    "images/logo-dark.svg",
+    "images/logo-light.svg",
+    "images/logo-white.svg",
+    "images/logo.svg"
+  ],
+  "styles": [
+    "index.css"
+  ],
+  "development": {
+    "logo/logo": "*"
+  },
+  "license": "MIT"
+}
