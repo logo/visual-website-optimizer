@@ -1,0 +1,27 @@
+
+/**
+ * Visual Website Optimizer
+ */
+
+.logo[data-logo="Visual Website Optimizer"] {
+  width: 4.204807122em;
+  /* (24.86/6.74) * (1+.12+.02) - 0 */
+}
+
+.logo[data-logo="Visual Website Optimizer"] > *,
+.logo[data-logo="Visual Website Optimizer"][data-color="light"] > * {
+  background-image: url(images/logo.svg);
+  margin: -.12em 0 -.02em 0;
+}
+
+.logo[data-logo="Visual Website Optimizer"][data-color="dark"] > * {
+  background-image: url(images/logo-dark.svg);
+}
+
+.logo[data-logo="Visual Website Optimizer"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Visual Website Optimizer"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
